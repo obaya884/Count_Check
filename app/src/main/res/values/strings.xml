@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">カウント</string>
+    <string name="zero">0</string>
+    <string name="buttonDisplayName">＋</string>
+</resources>
