@@ -12,8 +12,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        CountButton.setOnClickListener {
+        plusButton.setOnClickListener {
             number++
+            CountLabelText.text = number.toString()
+        }
+
+        minusButton.setOnClickListener {
+            number--
             CountLabelText.text = number.toString()
         }
     }
